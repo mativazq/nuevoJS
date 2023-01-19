@@ -6,6 +6,7 @@ function bienvenida(){
     }
 }
 
+
 class Producto {
     constructor (id, nombre, precio) {
         this.id = id,
