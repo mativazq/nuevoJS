@@ -1,10 +1,15 @@
 import { actualizarTotalesCarrito } from './totalCarrito.js';
 import { productos } from './stock.js';
+import { obtenerCarritoStorage } from './storage.js';
 
 let carrito = [];
 
 const validarProductoRepetido = (productoId) => {
+    
+    localStorage.getItem('carrito') ? carrito = obtenerCarritoStorage() : console.log('el carrito no existe');
+    
     const productoRepetido = carrito.find(producto => producto.id === productoId);
+
 
     if (productoRepetido) {
         productoRepetido.cantidad++;

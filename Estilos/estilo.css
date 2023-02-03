@@ -57,7 +57,6 @@
     margin: 60px auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
   }
   
   p {
@@ -65,7 +64,6 @@
   }
   
   .card {
-    max-width: 30%;
     padding: 10px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
