@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Silkscreen', cursive;
+  background-color: #202020; }
+
+.navbar {
+  background-color: #424242;
+  margin: 0;
+  padding: 0; }
+
+.container-fluid {
+  display: flex;
+  border-bottom: #780A06 2px solid; }
+  .container-fluid a {
+    color: #E3E0CF; }
+
+.navbar-brand {
+  color: #E3E0CF;
+  margin: 1rem; }
+
+#buttonHambur:hover {
+  color: #E3E0CF;
+  background: none; }
+
+.nav-link, .nav-link.active {
+  color: #E3E0CF; }
+
+.header {
+  background-color: #424242; }
+  .header .imghead {
+    width: 100%;
+    border-bottom: #780A06 2px solid; }
+  .header .carritoybuscar {
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: #780A06 2px solid; }
+    .header .carritoybuscar ::placeholder {
+      color: #424242; }
+    .header .carritoybuscar input[value="buscar"] {
+      width: 200%;
+      height: 80%;
+      background: #E3E0CF; }
+    .header .carritoybuscar button[value="buscar"] {
+      color: #E3E0CF; }
+    .header .carritoybuscar #cesta-carrito {
+      border: none;
+      color: #E3E0CF;
+      font-size: 30px;
+      border-radius: 10%;
+      padding: 10px 20px;
+      transition: all .3s; }
+    .header .carritoybuscar #cesta-carrito:hover {
+      cursor: pointer;
+      color: #780A06;
+      background: none; }
+    .header .carritoybuscar #cesta-carrito:focus {
+      outline: none;
+      background: none; }
+
+.modal-carrito h3 {
+  color: #E3E0CF;
+  display: flex;
+  justify-content: center;
+  background: #424242; }
+
+.modal-carrito p {
+  color: #E3E0CF; }
+
+.modal-carrito #btn-cerrar-carrito {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  color: #780A06; }
+
+.botonesCarrito {
+  display: flex;
+  justify-content: space-around; }
+  .botonesCarrito #btn-compra {
+    color: #E3E0CF;
+    background: #061778;
+    font-size: large;
+    width: 7rem; }
+    .botonesCarrito #btn-compra i {
+      background: #061778; }
+  .botonesCarrito #btn-vaciar {
+    color: #E3E0CF;
+    background: #780A06;
+    font-size: large;
+    width: 7rem; }
+    .botonesCarrito #btn-vaciar i {
+      background: #780A06; }
+
+.productoEnCarrito {
+  border-left: 5px solid #e7abab;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #780A06; }
+  .productoEnCarrito button {
+    background: #780A06; }
+
+.modal-carrito #btn-cerrar-carrito:hover {
+  cursor: pointer; }
+
+.modal-carrito #btn-cerrar-carrito:focus {
+  outline: none; }
+
+.modal-carrito .producto-precio {
+  padding-top: 10px; }
+
+.modal-contenedor {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s;
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(42, 42, 42, 0.3); }
+
+.modal-active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 5; }
+
+.modal-carrito {
+  position: relative;
+  background-color: #424242;
+  min-width: 500px;
+  padding: 20px;
+  margin-top: -100%;
+  transition: all .5s;
+  border-radius: 10px;
+  box-shadow: #780a06 0px 5px 15px 0px; }
+
+.modal-active .modal-carrito {
+  margin-top: 0; }
+
+.swal2-modal {
+  background: #424242;
+  box-shadow: #780a06 0px 5px 15px 0px; }
+  .swal2-modal .swal2-title {
+    color: #E3E0CF;
+    background: #424242; }
+  .swal2-modal .swal2-text {
+    color: #E3E0CF;
+    background: #424242; }
+  .swal2-modal button {
+    color: #780A06;
+    background: #E3E0CF; }
+
+.card {
+  background: #E3E0CF;
+  margin: 1rem; }
+
+.card img:hover {
+  transform: scale(1);
+  z-index: 99; }
+
+.card-title {
+  width: 100%; }
+
+#producto-contenedor {
+  color: #E3E0CF;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #202020;
+  border-bottom: #780A06 2px solid;
+  width: 100%; }
+
+.footer {
+  position: absolute;
+  padding-top: 2rem;
+  width: 100%;
+  margin-top: -1.2rem; }
+  .footer a {
+    text-decoration: none; }
+
+.containerform {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center; }
+  .containerform .formform {
+    display: flex;
+    background: #343534;
+    flex-direction: column;
+    padding: 7vw 4vw;
+    width: 90%;
+    border-radius: 10px; }
+    .containerform .formform h3 {
+      align-self: center;
+      color: #E3E0CF;
+      font-weight: 800;
+      margin-bottom: 2rem;
+      background: #780A06; }
+    .containerform .formform input, .containerform .formform textarea {
+      color: #202020;
+      outline: none;
+      background: #E3E0CF; }
+    .containerform .formform input::placeholder {
+      color: #202020; }
+    .containerform .formform textarea::placeholder {
+      color: #202020; }
+    .containerform .formform button {
+      padding: 1rem;
+      background: #780A06;
+      color: #E3E0CF;
+      font-size: large;
+      border: 2;
+      outline: none;
+      cursor: pointer;
+      margin: 2rem auto 0;
+      border-radius: 30px; }
+
+.contenedor {
+  text-align: center;
+  margin: 0 auto;
+  height: 300px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column; }
+
+.contenedor input {
+  text-align: center;
+  color: #E3E0CF; }
+
+.contenedor button {
+  margin-top: 20px;
+  margin-bottom: -30px; }
+
+.pokemon {
+  width: 150px;
+  height: 150px;
+  margin: 40px auto;
+  display: inline-block; }
+
+.infoBuscar {
+  color: #E3E0CF;
+  text-align: center;
+  margin: 0 auto;
+  height: 300px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column; }

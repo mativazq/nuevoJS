@@ -1,0 +1,64 @@
+[
+    {
+     "id": 1,
+     "tipo": "Buzo",
+     "edition": "Lakers",
+     "precio": 5000,
+     "img": "./public/img/Buzo1.jpg" 
+    },
+    {
+    "tipo": "Buzo",
+    "edition": "Raptors",    
+    "precio": 5000,
+    "img": "./public/img/Buzo2.jpg" 
+    },
+    {
+     "id": 3,
+     "tipo": "Remera",
+     "edition": "Jazz",
+     "precio": 2000,
+     "img": "./public/img/Remera2.jpg" 
+    },
+    {
+     "id": 4,
+     "tipo": "Pantalon",
+     "edition": "Raptors",
+     "precio": 2500,
+     "img": "./public/img/Pantalon1.jpg" 
+    },
+    {
+     "id": 5,
+     "tipo": "Pantalon",
+     "edition": "Grizzlies",
+     "precio": 2500,
+     "img": "./public/img/Pantalon2.jpg" 
+    },
+    {
+     "id": 6,
+     "tipo": "Pantalon",
+     "edition": "Bulls",
+     "precio": 2500,
+     "img": "./public/img/Pantalon3.jpg" 
+    },
+    {
+     "id": 7,
+     "tipo": "Camiseta",
+     "edition": "Nets",
+     "precio": 3000,
+     "img": "./public/img/Camiseta1.jpg" 
+    },
+    {
+     "id": 8,
+     "tipo": "Camiseta",
+     "edition": "Bulls",
+     "precio": 3000,
+     "img": "./public/img/Camiseta2.jpg" 
+    },
+    {
+     "id": 9,
+     "tipo": "Camiseta",
+     "edition": "Mavericks",
+     "precio": 3000,
+     "img": "./public/img/Camiseta3.jpg" 
+    }
+]
