@@ -1,12 +1,15 @@
 [
     {
      "id": 1,
+     "nombre": "Buzo Lakers",
      "tipo": "Buzo",
      "edition": "Lakers",
      "precio": 5000,
      "img": "./public/img/Buzo1.jpg" 
     },
     {
+    "id": 2,
+    "nombre": "Buzo Raptors",
     "tipo": "Buzo",
     "edition": "Raptors",    
     "precio": 5000,
@@ -14,6 +17,7 @@
     },
     {
      "id": 3,
+     "nombre": "Remera Jazz",
      "tipo": "Remera",
      "edition": "Jazz",
      "precio": 2000,
@@ -21,6 +25,7 @@
     },
     {
      "id": 4,
+     "nombre": "Pantalon Raptors",
      "tipo": "Pantalon",
      "edition": "Raptors",
      "precio": 2500,
@@ -28,6 +33,7 @@
     },
     {
      "id": 5,
+     "nombre": "Pantalon Grizzlies",
      "tipo": "Pantalon",
      "edition": "Grizzlies",
      "precio": 2500,
@@ -35,6 +41,7 @@
     },
     {
      "id": 6,
+     "nombre": "Pantalon Bulls",
      "tipo": "Pantalon",
      "edition": "Bulls",
      "precio": 2500,
@@ -42,6 +49,7 @@
     },
     {
      "id": 7,
+     "nombre": "Camiseta Nets",
      "tipo": "Camiseta",
      "edition": "Nets",
      "precio": 3000,
@@ -49,6 +57,7 @@
     },
     {
      "id": 8,
+     "nombre": "Camiseta Bulls",
      "tipo": "Camiseta",
      "edition": "Bulls",
      "precio": 3000,
@@ -56,6 +65,7 @@
     },
     {
      "id": 9,
+     "nombre": "Camiseta Mavs",
      "tipo": "Camiseta",
      "edition": "Mavericks",
      "precio": 3000,

@@ -29,9 +29,10 @@
   color: #E3E0CF; }
 
 .header {
-  background-color: #424242; }
+  background-color: white; }
   .header .imghead {
-    width: 100%;
+    width: 50%;
+    margin-top: 2em;
     border-bottom: #780A06 2px solid; }
   .header .carritoybuscar {
     display: flex;
@@ -61,6 +62,23 @@
     .header .carritoybuscar #cesta-carrito:focus {
       outline: none;
       background: none; }
+
+.prueba{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.linea-horizontal {
+  top: 50%; /* Puedes ajustar la posición vertical */
+  left: 0;
+  right: 0;
+  height: 2px; /* Grosor de la línea */
+  background-color: #780A06; /* Color de la línea */
+}
+
+
+
 
 .modal-carrito h3 {
   color: #E3E0CF;
@@ -165,9 +183,6 @@
   background: #E3E0CF;
   margin: 1rem; }
 
-.card img:hover {
-  transform: scale(1);
-  z-index: 99; }
 
 .card-title {
   width: 100%; }
